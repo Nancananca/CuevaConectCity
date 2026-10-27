@@ -1,0 +1,28 @@
+{
+  "id": "M-14",
+  "artwork": "original_procedural_vector",
+  "seed": 141026,
+  "pixelWidth": 1200,
+  "pixelHeight": 800,
+  "physicalWidthMm": 160,
+  "physicalHeightMm": 106.66666666666667,
+  "printScalePercent": 100,
+  "compilationInput": "m14.png",
+  "qrEmbedded": false,
+  "sha256": {
+    "m14.png": "0dc2806e21d3efb853eb005ae7178819157a3cc6e00ff601014cec56b95e7583",
+    "m14.svg": "e32e6a99eb8331527c6f1100a694c69123f93a088a58cd89f9dbb2230a71491d",
+    "tarjeta-m14-a4.pdf": "e7561df7cee661dac1746badc8e86caeb85ffbe7cc88eb5af63525ac03843cf1"
+  },
+  "qa": {
+    "renderer": "Poppler pdftoppm",
+    "visualReview": true,
+    "pageCount": 1,
+    "pageSize": "A4",
+    "targetTransformPoints": [
+      453.5433,
+      302.3622
+    ],
+    "physicalTrackingValidated": false
+  }
+}

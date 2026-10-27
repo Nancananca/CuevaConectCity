@@ -1,0 +1,28 @@
+{
+  "imagePath": "assets/target/xr8/qr-m14_luminance.png",
+  "metadata": {
+    "sourceQrSha256": "d9e6a660372af734a8abf39b67726e01f4846f70a2d0e5f06f67b82359491cba",
+    "labelWidthMm": 25,
+    "variant": "official-cli-portrait-crop",
+    "physicalRecognitionValidated": false
+  },
+  "name": "qr-m14",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 128,
+    "width": 769,
+    "height": 1025,
+    "isRotated": false,
+    "originalWidth": 1025,
+    "originalHeight": 1025
+  },
+  "resources": {
+    "originalImage": "qr-m14_original.png",
+    "croppedImage": "qr-m14_cropped.png",
+    "thumbnailImage": "qr-m14_thumbnail.png",
+    "luminanceImage": "qr-m14_luminance.png"
+  },
+  "created": 1793127594669,
+  "updated": 1793127594669
+}
