@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "id": "M-13",
+  "passportId": "CUEVA-BCN-M-13",
+  "exportedAt": "2026-10-27T21:15:42.453Z",
+  "mode": "snapshot",
+  "sourceUpdatedAt": "2026-10-26T15:58:25.273Z",
+  "identity": {
+    "dimensionsM": [
+      4.5,
+      3
+    ],
+    "concreteThicknessM": 0.08,
+    "plasticThicknessM": 0.02,
+    "zone": "plataforma",
+    "plannedPosition": "P-13",
+    "reusePosition": null,
+    "material": "PE",
+    "components": [
+      "recycled_pe_board",
+      "concrete"
+    ],
+    "dimensionScope": "full_scale_project",
+    "modelScope": "illustrative_geometry",
+    "batchReference": "LOTE-BCN-PE-001"
+  },
+  "snapshot": {
+    "session": "2026-10-23/01",
+    "state": "sin_nacer",
+    "cycle": 0,
+    "position": null,
+    "batch": null,
+    "provenance": "stand_snapshot",
+    "isLive": false,
+    "savedAt": "2026-10-26T15:58:25.273Z",
+    "lastLogEventAt": "2026-10-24T12:37:00.863Z"
+  },
+  "history": [
+    {
+      "key": "2026-10-15/01:88",
+      "session": "2026-10-15/01",
+      "sequence": 88,
+      "at": "2026-10-16T16:04:47.482Z",
+      "type": "transicion",
+      "phase": "F1",
+      "cycle": 1,
+      "from": "sin_nacer",
+      "to": "plancha",
+      "provenance": "stand_reading",
+      "sourceHash": "be2178eba054be2be6fbffc575f601f99d10cedae1bdb24c61c7b34651e83219"
+    },
+    {
+      "key": "2026-10-15/01:140",
+      "session": "2026-10-15/01",
+      "sequence": 140,
+      "at": "2026-10-16T16:05:35.802Z",
+      "type": "transicion",
+      "phase": "F2",
+      "cycle": 1,
+      "from": "plancha",
+      "to": "pieza",
+      "provenance": "stand_reading",
+      "sourceHash": "395f230becdf4035066d494c6f665608cac15b630127039ccb4e01e20cdcf47f"
+    },
+    {
+      "key": "2026-10-15/01:228",
+      "session": "2026-10-15/01",
+      "sequence": 228,
+      "at": "2026-10-16T16:08:19.467Z",
+      "type": "transicion",
+      "phase": "F3",
+      "cycle": 1,
+      "from": "pieza",
+      "to": "en_transito",
+      "provenance": "stand_reading",
+      "sourceHash": "938e3ae0b033bc36993dd27a16e82056debaf65b3ca60491bcef8dda97b722da"
+    },
+    {
+      "key": "2026-10-15/01:314",
+      "session": "2026-10-15/01",
+      "sequence": 314,
+      "at": "2026-10-16T16:09:37.830Z",
+      "type": "transicion",
+      "phase": "F4",
+      "cycle": 1,
+      "from": "en_transito",
+      "to": "instalada",
+      "position": "P-13",
+      "provenance": "stand_reading",
+      "sourceHash": "1aec176a29ee746590676f617cbb0d5f0ad32d2a220355746aaeaca211ef65dc"
+    },
+    {
+      "key": "2026-10-15/01:455",
+      "session": "2026-10-15/01",
+      "sequence": 455,
+      "at": "2026-10-16T16:10:16.606Z",
+      "type": "transicion",
+      "phase": "F5",
+      "cycle": 1,
+      "from": "instalada",
+      "to": "en_servicio",
+      "provenance": "stand_reading",
+      "sourceHash": "452ad1eca0f1c5d6c9eae33930b6c452aa8728897fbc0b60db63f46c489a147a"
+    },
+    {
+      "key": "2026-10-15/01:647",
+      "session": "2026-10-15/01",
+      "sequence": 647,
+      "at": "2026-10-16T16:12:13.300Z",
+      "type": "transicion",
+      "phase": "F8",
+      "cycle": 1,
+      "from": "en_servicio",
+      "to": "retorno",
+      "provenance": "stand_reading",
+      "sourceHash": "ce87c652e5ea93365f7b84db9e4dea2e0474ac70c5f1b6cbb9ce66103e5d1eed"
+    },
+    {
+      "key": "2026-10-15/01:753",
+      "session": "2026-10-15/01",
+      "sequence": 753,
+      "at": "2026-10-16T17:58:33.038Z",
+      "type": "transicion",
+      "phase": "F1",
+      "cycle": 2,
+      "from": "retorno",
+      "to": "plancha",
+      "provenance": "simulation",
+      "sourceHash": "c98a0018793f7ba94ec32568609dd3374947bfaa519b2c49cec96527dce073e1"
+    },
+    {
+      "key": "2026-10-16/01:15",
+      "session": "2026-10-16/01",
+      "sequence": 15,
+      "at": "2026-10-16T18:02:46.899Z",
+      "type": "transicion",
+      "phase": "F1",
+      "cycle": 1,
+      "from": "sin_nacer",
+      "to": "plancha",
+      "provenance": "simulation",
+      "sourceHash": "0fed7cee678c0ddf78b825c326c1625dd8e526e758271ffe1c83b834bd16366b"
+    },
+    {
+      "key": "2026-10-16/01:31",
+      "session": "2026-10-16/01",
+      "sequence": 31,
+      "at": "2026-10-16T18:03:47.824Z",
+      "type": "transicion",
+      "phase": "F2",
+      "cycle": 1,
+      "from": "plancha",
+      "to": "pieza",
+      "provenance": "simulation",
+      "sourceHash": "1b5e3ceaf154966cd77b6c34dfd850205bb384c4203452e36f5daa1eb5d00b8e"
+    }
+  ],
+  "recordedJourney": [
+    {
+      "key": "2026-10-15/01:88",
+      "session": "2026-10-15/01",
+      "sequence": 88,
+      "at": "2026-10-16T16:04:47.482Z",
+      "type": "transicion",
+      "phase": "F1",
+      "cycle": 1,
+      "from": "sin_nacer",
+      "to": "plancha",
+      "provenance": "stand_reading",
+      "sourceHash": "be2178eba054be2be6fbffc575f601f99d10cedae1bdb24c61c7b34651e83219"
+    },
+    {
+      "key": "2026-10-15/01:140",
+      "session": "2026-10-15/01",
+      "sequence": 140,
+      "at": "2026-10-16T16:05:35.802Z",
+      "type": "transicion",
+      "phase": "F2",
+      "cycle": 1,
+      "from": "plancha",
+      "to": "pieza",
+      "provenance": "stand_reading",
+      "sourceHash": "395f230becdf4035066d494c6f665608cac15b630127039ccb4e01e20cdcf47f"
+    },
+    {
+      "key": "2026-10-15/01:228",
+      "session": "2026-10-15/01",
+      "sequence": 228,
+      "at": "2026-10-16T16:08:19.467Z",
+      "type": "transicion",
+      "phase": "F3",
+      "cycle": 1,
+      "from": "pieza",
+      "to": "en_transito",
+      "provenance": "stand_reading",
+      "sourceHash": "938e3ae0b033bc36993dd27a16e82056debaf65b3ca60491bcef8dda97b722da"
+    },
+    {
+      "key": "2026-10-15/01:314",
+      "session": "2026-10-15/01",
+      "sequence": 314,
+      "at": "2026-10-16T16:09:37.830Z",
+      "type": "transicion",
+      "phase": "F4",
+      "cycle": 1,
+      "from": "en_transito",
+      "to": "instalada",
+      "position": "P-13",
+      "provenance": "stand_reading",
+      "sourceHash": "1aec176a29ee746590676f617cbb0d5f0ad32d2a220355746aaeaca211ef65dc"
+    },
+    {
+      "key": "2026-10-15/01:455",
+      "session": "2026-10-15/01",
+      "sequence": 455,
+      "at": "2026-10-16T16:10:16.606Z",
+      "type": "transicion",
+      "phase": "F5",
+      "cycle": 1,
+      "from": "instalada",
+      "to": "en_servicio",
+      "provenance": "stand_reading",
+      "sourceHash": "452ad1eca0f1c5d6c9eae33930b6c452aa8728897fbc0b60db63f46c489a147a"
+    },
+    {
+      "key": "2026-10-15/01:647",
+      "session": "2026-10-15/01",
+      "sequence": 647,
+      "at": "2026-10-16T16:12:13.300Z",
+      "type": "transicion",
+      "phase": "F8",
+      "cycle": 1,
+      "from": "en_servicio",
+      "to": "retorno",
+      "provenance": "stand_reading",
+      "sourceHash": "ce87c652e5ea93365f7b84db9e4dea2e0474ac70c5f1b6cbb9ce66103e5d1eed"
+    }
+  ],
+  "journey": {
+    "mode": "historical_replay",
+    "session": "2026-10-15/01",
+    "date": "2026-10-16",
+    "isLive": false,
+    "startAt": "2026-10-16T16:04:47.482Z",
+    "endAt": "2026-10-16T16:12:13.300Z",
+    "phases": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F8"
+    ],
+    "scope": "scale_demonstrator_readings"
+  },
+  "evidence": {
+    "chainsChecked": 3,
+    "chainsValid": true,
+    "eventsChecked": 810,
+    "algorithm": "SHA-256",
+    "checkedAt": "2026-10-27T21:15:42.453Z",
+    "projectionIsCryptographicProof": false,
+    "scope": "local_record_integrity",
+    "sessions": [
+      {
+        "session": "2026-10-15/01",
+        "eventsChecked": 758,
+        "selectedEvents": 7,
+        "valid": true,
+        "lastEventAt": "2026-10-16T17:58:50.111Z"
+      },
+      {
+        "session": "2026-10-16/01",
+        "eventsChecked": 50,
+        "selectedEvents": 2,
+        "valid": true,
+        "lastEventAt": "2026-10-23T16:35:11.050Z"
+      },
+      {
+        "session": "2026-10-23/01",
+        "eventsChecked": 2,
+        "selectedEvents": 0,
+        "valid": true,
+        "lastEventAt": "2026-10-24T12:37:00.863Z"
+      }
+    ]
+  },
+  "metrics": {
+    "realTransitions": 6,
+    "simulatedTransitions": 3,
+    "maintenanceEvents": 0,
+    "estimatedFullScaleMassKg": 2970.0,
+    "massEstimateBasisKgPerM2": 220,
+    "measuredMassKg": null,
+    "measuredMassScope": "not_available",
+    "carbonSavingsKg": null,
+    "lifeCycleAssessment": "not_available"
+  },
+  "sources": [
+    {
+      "id": "piece_definition",
+      "kind": "project_data",
+      "labelKey": "source.piece"
+    },
+    {
+      "id": "board_geometry",
+      "kind": "project_geometry",
+      "labelKey": "source.geometry"
+    },
+    {
+      "id": "stand_log",
+      "kind": "local_record",
+      "labelKey": "source.log"
+    },
+    {
+      "id": "mass_assumption",
+      "kind": "project_estimate",
+      "labelKey": "source.mass"
+    }
+  ],
+  "limitations": {
+    "productCertification": false,
+    "industrialDeploymentProven": false,
+    "physicalReuseProven": false,
+    "environmentalSavingsProven": false,
+    "passportStandardCertified": false,
+    "replayIsLive": false,
+    "actualScaleModelDimensionsKnown": false
+  }
+}

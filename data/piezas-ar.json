@@ -1,0 +1,518 @@
+{
+ "note": "Una entrada por pieza con QR. modelMm = maqueta 1:20 (ancho a lo largo del QR, fondo, espesor). qrCenterMm = desplazamiento del centro del QR respecto al centro de la cara superior (X a la derecha del QR, Z hacia el borde inferior del QR). Cambia aquí los tamaños si alguna maqueta difiere; no hace falta tocar el código.",
+ "qr": {
+  "labelMm": 25,
+  "modules": 33,
+  "quietModules": 4,
+  "errorCorrection": "M"
+ },
+ "pieces": [
+  {
+   "id": "M-01",
+   "zone": "paseo",
+   "family": "J4",
+   "modelMm": [
+    150,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    3
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-01",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-01",
+   "passport": "data/piezas/M-01.json"
+  },
+  {
+   "id": "M-02",
+   "zone": "paseo",
+   "family": "J4",
+   "modelMm": [
+    150,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    3
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-02",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-02",
+   "passport": "data/piezas/M-02.json"
+  },
+  {
+   "id": "M-03",
+   "zone": "paseo",
+   "family": "J4",
+   "modelMm": [
+    150,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    3
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-03",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-03",
+   "passport": "data/piezas/M-03.json"
+  },
+  {
+   "id": "M-04",
+   "zone": "paseo",
+   "family": "J4",
+   "modelMm": [
+    150,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    3
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-04",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-04",
+   "passport": "data/piezas/M-04.json"
+  },
+  {
+   "id": "M-05",
+   "zone": "paseo",
+   "family": "J4",
+   "modelMm": [
+    150,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    3
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-05",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-05",
+   "passport": "data/piezas/M-05.json"
+  },
+  {
+   "id": "M-06",
+   "zone": "paseo",
+   "family": "J4",
+   "modelMm": [
+    150,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    3
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-06",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-06",
+   "passport": "data/piezas/M-06.json"
+  },
+  {
+   "id": "M-07",
+   "zone": "vial",
+   "family": "J8",
+   "modelMm": [
+    300,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": false,
+   "projectM": [
+    6,
+    3
+   ],
+   "concreteMm": 220,
+   "peMm": 20,
+   "position": "P-07",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-07",
+   "passport": "data/piezas/M-07.json"
+  },
+  {
+   "id": "M-08",
+   "zone": "vial",
+   "family": "J8",
+   "modelMm": [
+    300,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": false,
+   "projectM": [
+    6,
+    3
+   ],
+   "concreteMm": 220,
+   "peMm": 20,
+   "position": "P-08",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-08",
+   "passport": "data/piezas/M-08.json"
+  },
+  {
+   "id": "M-09",
+   "zone": "vial",
+   "family": "J8",
+   "modelMm": [
+    300,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": false,
+   "projectM": [
+    6,
+    3
+   ],
+   "concreteMm": 220,
+   "peMm": 20,
+   "position": "P-09",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-09",
+   "passport": "data/piezas/M-09.json"
+  },
+  {
+   "id": "M-10",
+   "zone": "plataforma",
+   "family": "J6",
+   "modelMm": [
+    225,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    4.5,
+    3
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-10",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-10",
+   "passport": "data/piezas/M-10.json"
+  },
+  {
+   "id": "M-11",
+   "zone": "plataforma",
+   "family": "J6",
+   "modelMm": [
+    225,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    4.5,
+    3
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-11",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-11",
+   "passport": "data/piezas/M-11.json"
+  },
+  {
+   "id": "M-12",
+   "zone": "plataforma",
+   "family": "J6",
+   "modelMm": [
+    225,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    4.5,
+    3
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-12",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-12",
+   "passport": "data/piezas/M-12.json"
+  },
+  {
+   "id": "M-13",
+   "zone": "plataforma",
+   "family": "J6",
+   "modelMm": [
+    225,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    4.5,
+    3
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-13",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-13",
+   "passport": "data/piezas/M-13.json"
+  },
+  {
+   "id": "M-14",
+   "zone": "plaza",
+   "family": "J2",
+   "modelMm": [
+    150,
+    75,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    1.5
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-14",
+   "reuse": "Q-01",
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/",
+   "passport": "data/piezas/M-14.json"
+  },
+  {
+   "id": "M-15",
+   "zone": "plaza",
+   "family": "J2",
+   "modelMm": [
+    150,
+    75,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    1.5
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-15",
+   "reuse": "Q-02",
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-15",
+   "passport": "data/piezas/M-15.json"
+  },
+  {
+   "id": "M-16",
+   "zone": "plaza",
+   "family": "J2",
+   "modelMm": [
+    150,
+    75,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    1.5
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-16",
+   "reuse": "Q-03",
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-16",
+   "passport": "data/piezas/M-16.json"
+  },
+  {
+   "id": "M-17",
+   "zone": "plaza",
+   "family": "J2",
+   "modelMm": [
+    150,
+    75,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    1.5
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-17",
+   "reuse": "Q-04",
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-17",
+   "passport": "data/piezas/M-17.json"
+  },
+  {
+   "id": "M-18",
+   "zone": "plaza",
+   "family": "J2",
+   "modelMm": [
+    150,
+    75,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    1.5
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-18",
+   "reuse": "Q-05",
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-18",
+   "passport": "data/piezas/M-18.json"
+  },
+  {
+   "id": "M-19",
+   "zone": "borde",
+   "family": "J1",
+   "modelMm": [
+    75,
+    75,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    1.5,
+    1.5
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-19",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-19",
+   "passport": "data/piezas/M-19.json"
+  },
+  {
+   "id": "M-20",
+   "zone": "borde",
+   "family": "J1",
+   "modelMm": [
+    75,
+    75,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    1.5,
+    1.5
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-20",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-20",
+   "passport": "data/piezas/M-20.json"
+  }
+ ],
+ "bag": {
+  "id": "SACA",
+  "kind": "bag",
+  "url": "https://nancananca.github.io/CuevaConectCity/?p=SACA",
+  "passport": "data/piezas/SACA.json",
+  "note": "QR sobre la saca (cara superior o lateral). La escena se apoya en la gravedad, no en la cara."
+ }
+}

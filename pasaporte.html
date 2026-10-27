@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#082b35"><meta name="description" content="Explora M-14: el pasaporte de una pieza, su historia registrada y su despiece en realidad aumentada.">
+  <title>M-14 · CUEVA × PLASTICPeople · Port de Barcelona</title>
+  <link rel="icon" href="assets/brand/cueva.svg" type="image/svg+xml"><link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i="skip">Ir al contenido</a>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="CUEVA · inicio"><img src="assets/brand/cueva.svg" alt="" width="27" height="27"><span>CUEVA<span class="wordmark-divider">/</span><span class="light">iPath</span></span></a>
+    <div class="partners"><img class="port" src="assets/brand/port-barcelona.svg" alt="Port de Barcelona"><span>×</span><img class="pp" src="assets/brand/plasticpeople.svg" alt="PLASTICPeople"></div>
+    <select id="language" aria-label="Language"><option value="es">ES</option><option value="en">EN</option><option value="ca">CA</option></select>
+  </header>
+  <main id="main">
+    <div class="context-line"><span class="pulse"></span><span data-i="context">Demostrador de circularidad · Port de Barcelona</span><span class="context-right">M-14 / 020</span></div>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow" data-i="passport">PASAPORTE DE MATERIAL</p><h1 id="hero-title"><span data-i="headline1">La materia cambia.</span><em data-i="headline2">La identidad permanece.</em></h1><p class="lede" data-i="intro">Explora una pieza que conecta el plástico recuperado del Puerto con una nueva vida en su infraestructura.</p>
+        <div class="identity"><span class="identity-code">M–14</span><div><strong data-i="pieceType">Pieza bicomponente</strong><span data-i="formatSummary">3 × 1,5 m · plaza · formato de proyecto</span></div></div>
+        <div class="hero-actions"><button class="primary" id="launch-ar" data-i="launchAR">Ver en tu mesa <span aria-hidden="true">↗</span></button><button class="secondary" id="open-story" data-i="discover">Descubrir su historia</button></div>
+        <p class="micro" data-i="cameraNote">Sin instalar apps. La cámara se activa solo cuando tú lo eliges.</p>
+        <a class="text-link" href="experiencia.html?view=3d" data-i="story3d">Explorar la historia animada · 50 s ↗</a>
+        <a class="secondary" style="display:inline-flex;margin-top:14px" href="./" id="ar-link" data-i="interactivePilot">Despertar M-14 en AR ↗</a>
+      </div>
+      <div class="object-panel">
+        <div class="object-top"><span class="eyebrow" data-i="interactiveModel">MODELO INTERACTIVO</span><span class="object-chip" data-i="designModel">Diseño de proyecto</span></div>
+        <div id="viewer" class="viewer" aria-label="Modelo 3D de M-14, girar arrastrando"><div class="viewer-loading" data-i="loadingModel">Preparando la pieza…</div></div>
+        <div class="model-caption"><span><i class="material-dot concrete"></i><span data-i="concrete">Hormigón</span></span><span><i class="material-dot plastic"></i><span data-i="plastic">PE reciclado</span></span><span class="drag-hint" data-i="drag">Arrastra para girar</span></div>
+        <div class="model-controls"><label for="explode"><span data-i="separate">Separar las capas</span><output id="explode-value">40 %</output></label><input type="range" id="explode" min="0" max="100" value="40"><div class="model-buttons"><button id="model-reset" data-i="resetView">Reencuadrar</button><button id="auto-rotate" aria-pressed="false" data-i="rotate">Giro automático</button></div></div>
+      </div>
+    </section>
+    <div class="section-nav" role="tablist" aria-label="Pasaporte">
+      <button role="tab" id="tab-material" aria-selected="true" aria-controls="panel-material" data-tab="material" data-i="materials">Materiales</button>
+      <button role="tab" id="tab-life" aria-selected="false" aria-controls="panel-life" data-tab="life" data-i="life">Línea de vida</button>
+      <button role="tab" id="tab-evidence" aria-selected="false" aria-controls="panel-evidence" data-tab="evidence" data-i="evidence">Evidencias</button>
+      <button role="tab" id="tab-next" aria-selected="false" aria-controls="panel-next" data-tab="next" data-i="nextLife">Próxima vida</button>
+    </div>
+    <section class="tab-panel" role="tabpanel" id="panel-material" aria-labelledby="tab-material">
+      <div class="section-heading"><p class="eyebrow">01 / <span data-i="composition">COMPOSICIÓN</span></p><h2 data-i="materialHeading">Dos materiales.<br>Una pieza con memoria.</h2><p data-i="materialIntro">La plancha de plástico reciclado forma parte de una pieza de infraestructura junto con la capa de hormigón.</p></div>
+      <div class="material-list"><article><span class="material-number">01</span><div><h3 data-i="plastic">PE reciclado</h3><p data-i="plasticDesc">Procedente de lonas de las fundas de barco del refit. Transformado en plancha por PLASTICPeople.</p></div><strong>20<span>mm</span></strong></article><article><span class="material-number">02</span><div><h3 data-i="concrete">Hormigón</h3><p data-i="concreteDesc">Capa superior de la pieza bicomponente. Configuración de proyecto para el formato de plaza.</p></div><strong>80<span>mm</span></strong></article></div>
+      <div class="facts"><div><span data-i="surface">Superficie de proyecto</span><strong>4,5 <small>m²</small></strong></div><div><span data-i="batch">Lote de referencia</span><strong class="small-value">BCN–PE–001</strong></div><div><span data-i="scaleModel">Maqueta J2 · 4 mm</span><strong class="small-value">15 × 7,5 cm</strong></div></div>
+      <p class="source-note" data-i="geometryNote">Dimensiones del proyecto representado, no de la maqueta. La geometría ilustra la composición; no acredita prestaciones estructurales.</p>
+    </section>
+    <section class="tab-panel" role="tabpanel" id="panel-life" aria-labelledby="tab-life" hidden>
+      <div class="section-heading"><p class="eyebrow">02 / <span data-i="traceability">TRAZABILIDAD</span></p><h2 data-i="lifeHeading">Cada paso deja<br>una huella.</h2><p data-i="lifeIntro">Recorre las lecturas de M-14 registradas en la prueba de campo. La animación explica el proceso representado por la maqueta.</p></div>
+      <div class="record-banner"><div><span class="mode-dot"></span><strong id="source-title">Prueba de campo · 16 oct 2026</strong><span id="source-detail"></span></div><button id="replay" class="secondary" data-i="playJourney">Reproducir recorrido</button></div>
+      <div class="journey-player"><div class="journey-step"><span id="phase-code">F1</span><div><h3 id="phase-name"></h3><p id="phase-description"></p></div></div><div class="journey-progress" id="phase-buttons"></div><div class="journey-controls"><button id="previous-phase" data-i="previous">← Anterior</button><span id="journey-position" aria-live="polite"></span><button id="next-phase" data-i="following">Siguiente →</button></div></div>
+      <ol class="event-list" id="event-list"></ol><p class="source-note" data-i="replayNote">Repetición de lecturas registradas: no representa el estado en directo del puerto ni prueba que las transformaciones industriales hayan ocurrido.</p>
+    </section>
+    <section class="tab-panel" role="tabpanel" id="panel-evidence" aria-labelledby="tab-evidence" hidden>
+      <div class="section-heading"><p class="eyebrow">03 / <span data-i="provenance">PROCEDENCIA</span></p><h2 data-i="evidenceHeading">Conoce qué hay<br>detrás de cada dato.</h2></div>
+      <div class="evidence-grid"><article><span class="evidence-label" data-i="registered">REGISTRO LOCAL</span><h3 id="chain-title"></h3><p data-i="integrityDesc">Se comprobó la secuencia SHA-256 de las sesiones de origen al preparar esta copia. La ficha pública contiene una selección de datos.</p></article><article><span class="evidence-label" data-i="scope">ALCANCE</span><h3 data-i="prototype">Demostrador con maqueta</h3><p data-i="scopeDesc">Las lecturas documentan el prototipo del stand. El diseño, el proceso industrial y el posible piloto portuario tienen alcances distintos.</p></article><article><span class="evidence-label" data-i="transport">TRANSPORTE</span><h3 data-i="noInventedCarbon">Huella con fuentes</h3><p data-i="carbonDesc">Esta versión no calcula un ahorro de CO₂. Se necesitan viajes, pesos, factores y un escenario de comparación documentados.</p></article><article><span class="evidence-label" data-i="productPassport">PASAPORTE</span><h3 data-i="ownVocabulary">Identidad persistente</h3><p data-i="vocabularyDesc">Vocabulario propio del demostrador CUEVA. La integridad del registro no constituye certificación del producto.</p></article></div>
+      <div class="download-row"><a class="secondary" href="data/m14.json" download data-i="downloadData">Descargar datos públicos · JSON</a><a class="text-link" href="pruebas.html" data-i="testTools">Herramientas de prueba ↗</a></div>
+      <div class="connection"><div><p class="eyebrow" data-i="standConnection">CONEXIÓN CON EL STAND</p><h3 id="connection-state" data-i="snapshotMode">Copia de consulta</h3><p id="connection-info"></p></div><button id="connect-live" class="secondary" data-i="connect">Comprobar conexión</button></div>
+    </section>
+    <section class="tab-panel" role="tabpanel" id="panel-next" aria-labelledby="tab-next" hidden>
+      <div class="section-heading"><p class="eyebrow">04 / <span data-i="circularity">CIRCULARIDAD</span></p><h2 data-i="nextHeading">Un lugar diferente.<br>La misma identidad.</h2><p data-i="reuseIntro">M-14 es una de las piezas de plaza que, en el proceso del demostrador, se desmonta, pasa a stock y se recoloca.</p></div>
+      <div class="reuse-flow"><div><small>F5</small><strong data-i="inService">En servicio</strong><span>P–14</span></div><span aria-hidden="true">→</span><div><small>F6</small><strong data-i="stock">Stock</strong><span data-i="available">Disponible</span></div><span aria-hidden="true">→</span><div><small>F7</small><strong data-i="reused">Reúso</strong><span>Q–01</span></div></div>
+      <div class="next-callout"><p data-i="reuseCallout">La historia de la pieza continúa aunque cambie de posición. Su pasaporte conecta origen, usos y retorno.</p><button class="primary" id="reuse-ar" data-i="seeReuseAR">Explorar en realidad aumentada ↗</button></div>
+    </section>
+    <section class="ar-invite"><div><p class="eyebrow" data-i="takeALook">MIRA MÁS ALLÁ DE LA SUPERFICIE</p><h2 data-i="arInvite">La pieza, en tu espacio.</h2><p data-i="arInviteDesc">Abre la cámara, apunta a la tarjeta M-14 y explora sus capas. También puedes usar el visor 3D sin cámara.</p></div><a class="target-thumb" href="tarjeta.html"><img src="assets/target/qr-m14.png" alt="QR de M-14" width="200" height="200"><span data-i="openTarget">Abrir tarjeta para imprimir ↗</span></a></section>
+  </main>
+  <footer><span>CUEVA × PLASTICPeople · Port de Barcelona</span><span data-i="footer">Una demostración de identidad, material y circularidad.</span><a href="pruebas.html" data-i="testTools">Herramientas de prueba ↗</a></footer>
+  
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script type="module" src="js/app.mjs?v=3.0-surface"></script>
+</body></html>
