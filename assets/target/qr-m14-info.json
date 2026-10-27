@@ -1,0 +1,11 @@
+{
+  "destination": "https://nancananca.github.io/CuevaConectCity/",
+  "file": "qr-m14-25mm.svg",
+  "printedWidthMm": 25,
+  "printedHeightMm": 25,
+  "errorCorrection": "M",
+  "quietZoneModules": 4,
+  "modules": 33,
+  "sha256": "02f0e46d59d46f8e0714782af84cfc74507dd76fa6a6d3554eb4e2500c3da065",
+  "generatedLocally": true
+}

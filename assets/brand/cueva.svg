@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <g fill="none" shape-rendering="geometricPrecision" stroke-linejoin="miter" stroke-miterlimit="10">
+    <circle cx="120" cy="120" r="92" stroke="#E8EEF2" stroke-width="2.4"/>
+    <polygon points="91.56,74.75 91.56,89.25 79.00,96.50 66.44,89.25 66.44,74.75 79.00,67.50" stroke="#56DCE6" stroke-width="2.3"/>
+    <path d="M91.80 82.00H97.20" stroke="#00D4AA" stroke-width="2"/><rect x="97.20" y="80.10" width="3.80" height="3.80" stroke="#00D4AA" stroke-width="2"/>
+    <rect x="130" y="72" width="37" height="18" stroke="#E8EEF2" stroke-width="2.35"/>
+    <path d="M148.50 90.00V95.00" stroke="#0EA5E9" stroke-width="2"/><rect x="146.70" y="95.00" width="3.60" height="3.60" stroke="#0EA5E9" stroke-width="2"/>
+    <rect x="70" y="139" width="27" height="27" stroke="#E8EEF2" stroke-width="2.3"/>
+    <path d="M97.00 152.50H102.30" stroke="#FF6B4A" stroke-width="1.9"/><rect x="102.30" y="150.70" width="3.60" height="3.60" stroke="#FF6B4A" stroke-width="1.9"/>
+    <rect x="116" y="168" width="45" height="18" stroke="#0EA5E9" stroke-width="2.25"/>
+    <path d="M161.00 177.00H166.20" stroke="#00D4AA" stroke-width="1.9"/><rect x="166.20" y="175.20" width="3.60" height="3.60" stroke="#00D4AA" stroke-width="1.9"/>
+    <circle cx="176" cy="177" r="3.7" fill="#00D4AA" stroke="none"/>
+    <circle cx="120" cy="120" r="2.6" fill="#F59E0B" stroke="none"/>
+  </g></svg>
