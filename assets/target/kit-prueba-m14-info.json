@@ -1,0 +1,50 @@
+{
+  "pdf": "kit-prueba-m14.pdf",
+  "pdfSha256": "06b6a79cb56dfce45ee2a844cabc95c72fb0e75c1fb97b81d5a1175214b15714",
+  "pageCount": 2,
+  "pageSize": "A4",
+  "printScalePercent": 100,
+  "targetSizeMm": [
+    60,
+    40
+  ],
+  "qrSizesMm": [
+    25,
+    20
+  ],
+  "destination": "https://cueva-m14.edrosyst.chatgpt.site/",
+  "qrQuietZoneModules": 4,
+  "preserved": {
+    "m14.png": "0dc2806e21d3efb853eb005ae7178819157a3cc6e00ff601014cec56b95e7583",
+    "m14.mind": "684ad7300576f5e5c79ad689f1a438a851bc1dbb5105153da8d0e194ec8a8fde",
+    "m14.svg": "e32e6a99eb8331527c6f1100a694c69123f93a088a58cd89f9dbb2230a71491d",
+    "tarjeta-m14-a4.pdf": "e7561df7cee661dac1746badc8e86caeb85ffbe7cc88eb5af63525ac03843cf1",
+    "tarjeta-m14-6cm-a4.pdf": "f496d36647029e9e102bd6590d6439a5d6106f6b0d7735365acbc23afc14f586"
+  },
+  "evidence": {
+    "screenTest": "success_reported_by_user",
+    "physicalPrintTest": "pending"
+  },
+  "sourceScripts": [
+    "tools/ar-kit.py",
+    "tools/ar-kit-qr.mjs"
+  ],
+  "qa": {
+    "renderer": "Poppler pdftoppm 140dpi",
+    "visualReview": true,
+    "targetPixelsIdentical": true,
+    "targetTransformPoints": [
+      170.0787,
+      113.3858
+    ],
+    "renderedPdfQrChecks": {
+      "pdfQrDecoded": [
+        25,
+        20
+      ],
+      "decoder": "jsQR 1.4.0",
+      "exactDestination": true
+    },
+    "physicalPrintValidated": false
+  }
+}
