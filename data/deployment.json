@@ -1,0 +1,9 @@
+{
+  "canonicalUrl": "https://nancananca.github.io/CuevaConectCity/",
+  "qrImage": "assets/target/qr-m14.png",
+  "qrTarget": "assets/target/qr-m14.mind",
+  "qrSizeMm": 25,
+  "version": "2.1-center",
+  "qrPlacement": "center",
+  "defaultFamily": "J2"
+}
