@@ -1,0 +1,15 @@
+{
+  "canonicalUrl": "https://nancananca.github.io/CuevaConectCity/",
+  "qrImage": "assets/target/qr-m14.png",
+  "qrTarget": "assets/target/qr-m14.mind",
+  "qrSizeMm": 25,
+  "version": "3.0-surface",
+  "qrPlacement": "center",
+  "defaultFamily": "J2",
+  "arMode": "native_surface",
+  "qrRole": "entry_link",
+  "requiresQrVisibility": false,
+  "manualPlacementRequired": true,
+  "iphoneModel": "assets/models/m14-j2.usdz",
+  "androidModel": "assets/models/m14-j2.glb"
+}
