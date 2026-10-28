@@ -1,0 +1,96 @@
+{
+ "note": "Una entrada por pieza con QR. modelMm = maqueta 1:20 (ancho a lo largo del QR, fondo, espesor). qrCenterMm = desplazamiento del centro del QR respecto al centro de la cara superior (X a la derecha del QR, Z hacia el borde inferior del QR). Cambia aquí los tamaños si alguna maqueta difiere; no hace falta tocar el código. Cuatro experiencias: M-14 (plaza, QR original en la raíz), M-07 (vial), M-19 (borde) y la saca (origen).",
+ "qr": {
+  "labelMm": 25,
+  "modules": 33,
+  "quietModules": 4,
+  "errorCorrection": "M"
+ },
+ "pieces": [
+  {
+   "id": "M-07",
+   "zone": "vial",
+   "family": "J8",
+   "modelMm": [
+    300,
+    150,
+    4
+   ],
+   "modelSizeConfirmed": false,
+   "projectM": [
+    6,
+    3
+   ],
+   "concreteMm": 220,
+   "peMm": 20,
+   "position": "P-07",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-07",
+   "passport": "data/piezas/M-07.json",
+   "experience": "vial"
+  },
+  {
+   "id": "M-14",
+   "zone": "plaza",
+   "family": "J2",
+   "modelMm": [
+    150,
+    75,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    3,
+    1.5
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-14",
+   "reuse": "Q-01",
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/",
+   "passport": "data/piezas/M-14.json",
+   "experience": "plaza"
+  },
+  {
+   "id": "M-19",
+   "zone": "borde",
+   "family": "J1",
+   "modelMm": [
+    75,
+    75,
+    4
+   ],
+   "modelSizeConfirmed": true,
+   "projectM": [
+    1.5,
+    1.5
+   ],
+   "concreteMm": 80,
+   "peMm": 20,
+   "position": "P-19",
+   "reuse": null,
+   "qrCenterMm": [
+    0,
+    0
+   ],
+   "url": "https://nancananca.github.io/CuevaConectCity/?p=M-19",
+   "passport": "data/piezas/M-19.json",
+   "experience": "borde"
+  }
+ ],
+ "bag": {
+  "id": "SACA",
+  "kind": "bag",
+  "url": "https://nancananca.github.io/CuevaConectCity/?p=SACA",
+  "passport": "data/piezas/SACA.json",
+  "note": "QR sobre la saca (cara superior o lateral). La escena se apoya en la gravedad, no en la cara."
+ }
+}
