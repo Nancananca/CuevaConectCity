@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#06222b">
+<title>4 experiencias · CuevaConectCity</title>
+<link rel="icon" href="assets/brand/cueva.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/m14ar.css?v=7.0">
+<style>
+body.m14.list{overflow:auto;background:radial-gradient(120% 60% at 50% 0%,#11505d 0%,var(--bg) 58%) fixed}
+.list main{max-width:1100px;margin:0 auto;padding:10px 20px 40px}
+.list h1{font-size:clamp(34px,7vw,52px);margin:6px 0 10px}
+.list .lead{max-width:46em}
+.tools{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 26px}
+.tools a{display:inline-flex;align-items:center;gap:6px;padding:11px 15px;border-radius:12px;border:1px solid var(--line);text-decoration:none;font-size:14px;background:rgba(5,32,40,.5)}
+.tools a.main{background:var(--mint);color:#052a33;border-color:var(--mint);font-weight:700}
+.zone{margin:24px 0 8px;font:500 11px Mono,monospace;letter-spacing:.14em;color:var(--mint)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.card .tag{font:500 10px Mono,monospace;letter-spacing:.12em;color:var(--gold)}
+.card{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(5,32,40,.55);display:flex;flex-direction:column;gap:8px}
+.card img{width:100%;aspect-ratio:1;border-radius:6px;image-rendering:pixelated;background:#fff}
+.card b{font:740 20px Archivo,Inter,sans-serif;letter-spacing:-.02em}
+.card small{color:var(--sub);font-size:12px;line-height:1.4}
+.card nav{display:flex;flex-wrap:wrap;gap:6px}
+.card nav a{font-size:12px;color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:99px;padding:5px 9px}
+.card nav a.ar{background:var(--mint);color:#052a33;border-color:var(--mint);font-weight:650}
+.note{font-size:13px;color:#a9c9bf;line-height:1.5;max-width:52em;margin-top:28px}
+</style>
+</head>
+<body class="m14 list">
+<main>
+ <p class="kicker" id="k">CUEVACONECTCITY · 20 PIEZAS + SACA</p>
+ <h1 id="h">Un QR<br><em>por pieza.</em></h1>
+ <p class="lead" id="l">Cada etiqueta abre la animación de su pieza. Dentro de la cámara, basta con apuntar a otra pieza para cambiar de historia.</p>
+ <div class="tools">
+  <a class="main" href="assets/qr/QR-piezas-25mm-A4.pdf" id="pdf">Hoja A4 para imprimir · 25 mm ↗</a>
+  <a href="./" id="back">← Experiencia</a>
+ </div>
+ <div id="list"></div>
+ <p class="note" id="n">Imprime al 100 %: la AR calcula la distancia a partir del tamaño real de la etiqueta (25 mm con su margen blanco). En pantalla el QR abre la animación, pero el anclaje sólo es exacto con la etiqueta impresa a su tamaño.</p>
+</main>
+<script type="module" src="js/m14ar/qr-list.mjs?v=7.0"></script>
+</body>
+</html>
