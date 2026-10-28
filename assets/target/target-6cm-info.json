@@ -1,0 +1,26 @@
+{
+  "id": "M-14",
+  "variant": "6cm",
+  "source": "m14.png",
+  "sourceSha256": "0dc2806e21d3efb853eb005ae7178819157a3cc6e00ff601014cec56b95e7583",
+  "physicalWidthMm": 60,
+  "physicalHeightMm": 40,
+  "printScalePercent": 100,
+  "pdf": "tarjeta-m14-6cm-a4.pdf",
+  "pdfSha256": "f496d36647029e9e102bd6590d6439a5d6106f6b0d7735365acbc23afc14f586",
+  "preserved": {
+    "m14.png": "0dc2806e21d3efb853eb005ae7178819157a3cc6e00ff601014cec56b95e7583",
+    "tarjeta-m14-a4.pdf": "e7561df7cee661dac1746badc8e86caeb85ffbe7cc88eb5af63525ac03843cf1"
+  },
+  "physicalTrackingValidated": false,
+  "qa": {
+    "renderer": "Poppler pdftoppm",
+    "visualReview": true,
+    "pageCount": 1,
+    "pageSize": "A4",
+    "targetTransformPoints": [
+      170.0787,
+      113.3858
+    ]
+  }
+}

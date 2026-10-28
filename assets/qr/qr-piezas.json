@@ -1,0 +1,34 @@
+[
+ {
+  "id": "M-07",
+  "url": "https://nancananca.github.io/CuevaConectCity/?p=M-07",
+  "zone": "vial",
+  "family": "J8",
+  "png": "assets/qr/M-07.png",
+  "svg": "assets/qr/M-07-25mm.svg"
+ },
+ {
+  "id": "M-14",
+  "url": "https://nancananca.github.io/CuevaConectCity/",
+  "zone": "plaza",
+  "family": "J2",
+  "png": "assets/qr/M-14.png",
+  "svg": "assets/qr/M-14-25mm.svg"
+ },
+ {
+  "id": "M-19",
+  "url": "https://nancananca.github.io/CuevaConectCity/?p=M-19",
+  "zone": "borde",
+  "family": "J1",
+  "png": "assets/qr/M-19.png",
+  "svg": "assets/qr/M-19-25mm.svg"
+ },
+ {
+  "id": "SACA",
+  "url": "https://nancananca.github.io/CuevaConectCity/?p=SACA",
+  "zone": "bag",
+  "family": "—",
+  "png": "assets/qr/SACA.png",
+  "svg": "assets/qr/SACA-25mm.svg"
+ }
+]
